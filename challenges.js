@@ -86,6 +86,7 @@ var challenges = [
     ,{options: {floorCount: 21, elevatorCount: 8, spawnRate: 1.5, elevatorCapacities: [6,8]}, condition: requireDemo()}
      ,{options: {floorCount: 50, elevatorCount: 8, spawnRate: 1.5, elevatorCapacities: [2,6,8,10]}, condition: requireDemo()}
     ,{options: {floorCount: 100, elevatorCount: 1, spawnRate: 1.5, elevatorCapacities: [20]}, condition: requireDemo()}
-    ,{options: {floorCount: 5, elevatorCount: 5, spawnRate: 10, elevatorCapacities: [10]}, condition: requireDemo()}
+    ,{options: {floorCount: 5, elevatorCount: 5, spawnRate: 10, elevatorCapacities: [30]}, condition: requireDemo()}
+    ,{options: {floorCount: 2, elevatorCount: 5, spawnRate: 20, elevatorCapacities: [20]}, condition: requireDemo()}
 ];
 /* jshint laxcomma:false */
